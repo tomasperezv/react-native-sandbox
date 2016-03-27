@@ -20,7 +20,7 @@ $ react-native run-android
 
 ### Troubleshooting
 
-Exception `Failed to find Build Tools revision 23.0.1`
+#### Exception `Failed to find Build Tools revision 23.0.1`
 
 ```
 FAILURE: Build failed with an exception.
@@ -42,4 +42,10 @@ If you want to use a different version than `23.0.1`, modify `build.gradle`
 android {
     compileSdkVersion 23
     buildToolsVersion "[BUILD_TOOLS_VERSION]"
+```
+
+#### Show the debugger
+
+```
+adb shell input keyevent 82
 ```
