@@ -1,0 +1,21 @@
+{
+  "name": "react-native-sandbox",
+  "version": "1.0.0",
+  "description": "A sandbox for react native components",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomasperezv/react-native-sandbox.git"
+  },
+  "keywords": [
+    "react",
+    "react-native"
+  ],
+  "author": "Tomás Pérez <t@0x101.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react-dynamic-components": "git+ssh://git@github.com/tomasperezv/react-dynamic-components.git"
+  }
+}
